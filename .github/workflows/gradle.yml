@@ -7,7 +7,7 @@ on:
     branches: [ "release" ]
 
 env:
-  PROJECT_NAME: mountain
+  PROJECT_NAME: Backend
   BUCKET_NAME: mountain-cicd-bucket
   CODE_DEPLOY_APP_NAME: mountain_cicd
   DEPLOYMENT_GROUP_NAME: mountain_instance
