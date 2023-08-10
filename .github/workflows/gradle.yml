@@ -9,8 +9,8 @@ on:
 env:
   PROJECT_NAME: Backend
   BUCKET_NAME: mountain-cicd-bucket
-  CODE_DEPLOY_APP_NAME: mountain_cicd
-  DEPLOYMENT_GROUP_NAME: mountain_instance
+  CODE_DEPLOY_APP_NAME: mountain
+  DEPLOYMENT_GROUP_NAME: mountain
   
 jobs:
   build:
