@@ -11,6 +11,7 @@ public class ChatDto {
     public enum MessageType{
         TEXT,   // 일반 텍스트 메세지
         INVITE, // 채팅방 초대하기 기능
+        ENTER,  // 입장하기
         LEAVE_ROOM, // 방 나가기 기능
         KICK_OUT;   // 강제 퇴장 기능
     }
